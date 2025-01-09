@@ -63,8 +63,8 @@ def clear_sheet_except_header(sheet):
     Xóa tất cả các hàng trừ hàng đầu tiên (header) trong Google Sheets.
     """
     rows = len(sheet.get_all_values())
-    if rows > 1:
-        sheet.delete_rows(2, rows)  # Xóa từ hàng thứ 2 đến cuối
+    if rows > 0:
+        sheet.delete_rows(1, rows)  # Xóa từ hàng thứ 2 đến cuối
 
 
 def write_to_sheet(sheet, table_id, records):
