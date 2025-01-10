@@ -30,7 +30,8 @@ table_ids = [
     "tbl1qezErTt1YiIA", "tbl9wYmp0BVlActD", "tblRXnWMv4xpn84j", "tblNfJQQpbcb1w79",
     "tblAeelLGawhKrge", "tblFa1VsfApMu3nB", "tblJPKnVWsKUPiOu", "tblTjbXgI5PfcTg8",
     "tbleSB74unoECUrl","tblv7rkz8gLtQXpp","tbl0jc8ebi11UpNw","tblE2pJEZuIfZzFB",
-    "tblh1vZWPxeDymjh","tbl9seojVP3tayzZ","tblH7DTNnLuZGXFT"
+    "tblh1vZWPxeDymjh","tbl9seojVP3tayzZ","tblH7DTNnLuZGXFT","tbl5OZiYzwEPGr9v",
+    "tblWU0mCsemgxFIU","tblHHitEe0lm3qQm","tblYRCBddpAkPJ1L"
 ]
 
 def get_access_token(app_id, app_secret):
